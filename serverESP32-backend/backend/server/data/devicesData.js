@@ -4,8 +4,8 @@ exports.getDevices = function () {
   return database.query('select * from device_control');
 }
 
-exports.getDeviceByName = function (name) {
-  return database.oneOrNone('select * from device_control where name = $1', [name])
+exports.getDeviceById = function (id) {
+  return database.oneOrNone('select * from device_control where id = $1', [id])
 }
 
 exports.saveDevice = function (device) {

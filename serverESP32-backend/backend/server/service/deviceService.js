@@ -5,7 +5,7 @@ exports.getDevices = function () {
 };
 
 exports.saveDevice = async function (device) {
-  const existingDevice = await deviceData.getDeviceByName(device.name);
+  const existingDevice = await deviceData.getDeviceById(device.id);
   if (existingDevice) throw new Error('O aparelho já existe');
   return deviceData.saveDevice(device);
 };
