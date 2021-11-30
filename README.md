@@ -26,9 +26,9 @@ Ligar as lâmpadas da fachada de um estabelecimento a de acordo com a luminosida
 - U3 = LED
 
 ### Membros
-Henrique Generoso da Rosa 
+[Henrique Generoso da Rosa](https://github.com/henriquegeneroso "Henrique Generoso da Rosa")
 
-Hiury Ronchi da Rosa 
+[Hiury Ronchi da Rosa](https://github.com/devhiury "Hiury Ronchi da Rosa")
 
 [Nickolas de Luca Alberton](https://github.com/nickolasdeluca "Nickolas de Luca Alberton") 
 
